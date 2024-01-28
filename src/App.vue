@@ -21,10 +21,11 @@ function increment() {
 <!-- Template is a HTML-based syntax that allows you to bind the rendered DOM elements
 with data, objects, functions etc. -->
 <template>
+
   <div id="top-bar">
     <div id="title-container">
       <img class="logo-image" alt="Iaac logo" src="./assets/iaac-white.png" />
-      <h2>Digital Tools for Cloud-based Data Management {{ name }} - Assignement 02</h2>
+      <h2>Digital Tools for Cloud-based Data Management {{ name }} - Assignement</h2>
     </div>
   </div>
 
@@ -35,8 +36,17 @@ with data, objects, functions etc. -->
 
     <!-- Now we print the value. The syntax to print variable is {{ variable_name }}. -->
     <p style="margin-left: 8px">Count is: {{ count }}</p>
-
   </div>
+
+  <div id="flex">
+
+      <div id="sidebar" class="container"> Sidebar </div>
+
+      <div id="main" class="container"> Projects </div>
+      
+  </div>
+  
+  
 </template>
 
 <!-- Style is for CSS styling -->
@@ -46,7 +56,7 @@ with data, objects, functions etc. -->
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 #top-bar {
@@ -80,6 +90,77 @@ h2 {
   font-size: 1.125rem;
   font-weight: 600;
   letter-spacing: 0.01em;
+}
+
+html{
+    
+    background-color: rgb(59, 59, 59); 
+    color: white;
+}
+
+body{
+
+    margin:0;
+}
+
+div{
+
+    /* put the borders in the inside of container */
+    box-sizing: border-box;
+}
+
+img{
+
+    height: 100%;
+    width: auto;
+
+}
+
+#navbar{
+
+    height: 50px;
+    border-color: red;
+
+
+}
+
+#flex{
+    
+    display: flex;
+    height: calc(100vh - 50px);
+}
+
+#sidebar{
+    
+    width:30%;
+    border-color: blue;
+
+}
+
+#main{
+    width:100%;
+    border-color: green;
+
+}
+
+#title{
+    width: 70%;
+    float:left;
+}
+
+#logo{
+    width: 30%;
+    height: 100%;
+    float:right;
+    text-align: right;
+
+}
+
+.container{
+
+    border-style: dotted;
+    border-width: 1px;
+
 }
 </style>
 
