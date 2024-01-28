@@ -24,7 +24,7 @@ with data, objects, functions etc. -->
   <div id="top-bar">
     <div id="title-container">
       <img class="logo-image" alt="Iaac logo" src="./assets/iaac-white.png" />
-      <h2>Digital Tools for Cloud-based Data Management {{ name }} - something</h2>
+      <h2>Digital Tools for Cloud-based Data Management {{ name }} - Assignement 02</h2>
     </div>
   </div>
 
