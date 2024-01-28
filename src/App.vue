@@ -25,7 +25,7 @@ with data, objects, functions etc. -->
   <div id="top-bar">
     <div id="title-container">
       <img class="logo-image" alt="Iaac logo" src="./assets/iaac-white.png" />
-      <h2>Digital Tools for Cloud-based Data Management {{ name }} - Assignement</h2>
+      <h2>Digital Tools for Cloud-based Data Management {{ name }} - Assignment</h2>
     </div>
   </div>
 
@@ -40,13 +40,12 @@ with data, objects, functions etc. -->
 
   <div id="flex">
 
-      <div id="sidebar" class="container"> Sidebar </div>
+      <div id="sidebar" class="container"> Navigator </div>
 
-      <div id="main" class="container"> Projects </div>
+      <div id="main" class="container"> Project Description </div>
       
   </div>
-  
-  
+
 </template>
 
 <!-- Style is for CSS styling -->
